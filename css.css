@@ -1,0 +1,45 @@
+
+
+.container {
+  background-color: blue;
+  text-align: center;
+  width: 100%;
+}
+
+
+.block {
+  width: 25%;
+  background-color: white;
+  padding: 30px 0px;
+  margin: 20px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  display:inline-block;
+  vertical-align: middle;
+  border: 4px black solid;
+
+}
+
+@media screen and (min-width: 501px) and (max-width: 1000px) {
+  .container {
+    background-color: red;
+  }
+  .block {
+    background-color: black;
+    color: white;
+    border-color: white;
+    width: 40%;
+}
+}
+
+@media screen and (min-width: 100px) and (max-width: 500px) {
+  .container {
+    background-color: purple;
+  }
+  .block {
+    background-color: white;
+    color: salmon;
+    border-color: pink;
+    width: 100%;
+  }
+}
